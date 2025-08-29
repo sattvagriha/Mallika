@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mallika Herbal Soap</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfcf9;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(rgba(44, 85, 48, 0.6), rgba(44, 85, 48, 0.6)),
+                  url('https://images.unsplash.com/photo-1589810264340-df27b60bd9b7?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+      opacity: 0.9;
+    }
+
+    /* Sections */
+    section {
+      padding: 3.5rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #2c5530;
+      font-size: 2rem;
+      position: relative;
+    }
+    section h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: #cda349;
+      margin: 0.8rem auto 0;
+      border-radius: 2px;
+    }
+
+    /* Grid Cards */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      border: 1px solid #f0eee9;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+    .card h3 {
+      color: #2c5530;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Lists */
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 800px;
+      margin: auto;
+    }
+    li {
+      background: #f8f6f0;
+      margin: 0.5rem 0;
+      padding: 0.8rem 1rem;
+      border-left: 6px solid #cda349;
+      border-radius: 6px;
+    }
+
+    /* Credits */
+    .credits {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 2.5rem;
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .credits h3 {
+      margin-bottom: 1.2rem;
+      color: #2c5530;
+    }
+    .credits p {
+      margin: 0.6rem 0;
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      background: linear-gradient(135deg, #f4f9f5, #e9f0e6);
+      padding: 3.5rem 2rem;
+      margin-top: 3rem;
+      border-radius: 15px;
+    }
+    .cta h2 {
+      color: #2c5530;
+    }
+    .cta a {
+      background: #25d366;
+      color: #fff;
+      padding: 1rem 2.2rem;
+      border-radius: 40px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 600;
+      transition: background 0.3s ease;
+      display: inline-block;
+      margin-top: 1.2rem;
+    }
+    .cta a:hover {
+      background: #1eb346;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1.8rem;
+      background: #2c5530;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      padding: 16px;
+      font-size: 1.8rem;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: background 0.3s ease;
+    }
+    .whatsapp-float:hover {
+      background: #1eb346;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Mallika Herbal Soap</h1>
+    <p>The Ayurvedic touch for glowing, nourished, and naturally beautiful skin.</p>
+  </header>
+
+  <!-- About -->
+  <section>
+    <h2>About Mallika Soap</h2>
+    <p style="text-align:center; max-width:850px; margin:auto;">
+      Mallika Herbal Soap is enriched with <strong>Raktachandana</strong> and <strong>Yashtimadhu Kwatha</strong>, 
+      blended with Vitamin E, Olive Oil, and Glycerin. Crafted with minimal preservatives, it is 
+      safe for all skin types and delivers authentic Ayurvedic care for everyday use.
+    </p>
+  </section>
+
+  <!-- Ingredients -->
+  <section>
+    <h2>Ingredients & Ayurvedic Benefits</h2>
+    <div class="grid">
+      <div class="card"><h3>🌿 Raktachandana</h3><p>Improves complexion, soothes burning, Raktaprasadana.</p></div>
+      <div class="card"><h3>🌿 Yashtimadhu</h3><p>Brightens skin, heals, nourishes, reduces inflammation.</p></div>
+      <div class="card"><h3>🫒 Olive Oil</h3><p>Moisturizes, prevents dryness, delays aging.</p></div>
+      <div class="card"><h3>💊 Vitamin E</h3><p>Antioxidant, protects skin from oxidative stress.</p></div>
+      <div class="card"><h3>💧 Glycerin</h3><p>Keeps skin soft & hydrated by locking moisture.</p></div>
+      <div class="card"><h3>🧼 Soap Base</h3><p>Gentle cleansing base for herbal actives.</p></div>
+    </div>
+  </section>
+
+  <!-- Method -->
+  <section>
+    <h2>Method of Preparation</h2>
+    <ul>
+      <li>Melt soap base using double boiler method.</li>
+      <li>Mix Raktachandana & Yashtimadhu Kwatha with Vitamin E capsule.</li>
+      <li>Blend mixture into the soap base and pour into molds.</li>
+      <li>(Optional) Add 2 drops of natural fragrance oil.</li>
+      <li>Spray isopropyl alcohol before & after to avoid bubbles.</li>
+    </ul>
+  </section>
+
+  <!-- Indications -->
+  <section>
+    <h2>Indications</h2>
+    <ul>
+      <li>✔ Removes bad odor (Durgandha)</li>
+      <li>✔ Provides skin moisturization (Snigdhata)</li>
+      <li>✔ Improves glow and complexion (Prabhā)</li>
+    </ul>
+  </section>
+
+  <!-- Safety -->
+  <section>
+    <h2>Safety Standards</h2>
+    <ul>
+      <li>✔ Made with minimal preservatives</li>
+      <li>✔ 100% natural & safe ingredients</li>
+      <li>✔ Suitable for all skin types</li>
+    </ul>
+  </section>
+
+  <!-- Benefits -->
+  <section>
+    <h2>Benefits</h2>
+    <ul>
+      <li>✔ Enhances natural glow (Varnya)</li>
+      <li>✔ Nourishes and hydrates (Tvachya)</li>
+      <li>✔ Reduces inflammation (Shothahara)</li>
+      <li>✔ Provides cooling & soothing (Daha-shamaka)</li>
+      <li>✔ Perfect for daily Ayurvedic skincare</li>
+    </ul>
+  </section>
+
+  <!-- Credits -->
+  <section class="credits">
+    <h3>Inventors & Guidance</h3>
+    <p><strong>Developed by:</strong> 2nd Professional BAMS Students, SDM Institute of Ayurveda & Hospital, Bengaluru</p>
+    <p><strong>Guided by:</strong><br>
+      Dr. Sujatha (HOD, RSBK)<br>
+      Dr. Rashma Soukar<br>
+      Dr. Smitha Jain
+    </p>
+    <p><strong>Students:</strong><br>
+      Adil, Bharani, Dharani, Laxminaryan, Murali, SreeRekha
+    </p>
+  </section>
+
+  <!-- CTA at end -->
+  <section class="cta">
+    <h2>Connect With Us</h2>
+    <p>Experience the Ayurvedic purity of Mallika Herbal Soap for radiant, glowing skin.</p>
+    <a href="https://wa.me/916364514741">💬 Message on WhatsApp</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Mallika Herbal Soap | All Rights Reserved</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/916364514741" class="whatsapp-float">💬</a>
+
+</body>
+</html>
